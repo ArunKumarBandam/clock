@@ -9,7 +9,7 @@ let s=date.getSeconds();
 let d=date.getDate();
 if(h<=12){
    
-pri=h +':'+m+':'+s+' ';
+pri=h +':'+m+':'+s+'s ';
 time1.innerHTML=pri;
 }else{
     pri=(h-12)+':'+m+':'+s+'s ';
