@@ -12,7 +12,7 @@ if(h<=12){
 pri=h +':'+m+':'+s+' ';
 time1.innerHTML=pri;
 }else{
-    pri=(h-12)+'h:'+m+'m:'+s+'s ';
+    pri=(h-12)+':'+m+':'+s+'s ';
     time1.textContent=pri;
 }
 
